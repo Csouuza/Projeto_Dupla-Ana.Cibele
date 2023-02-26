@@ -1,0 +1,351 @@
+body {
+    font-family: 'Averta Demo PE Cutted Demo';
+}
+
+.cabecalho{
+    width: 450vw;
+    height: 200vh;
+
+}
+
+
+.menu {
+    width:100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 60px;
+}
+
+.dev {
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    left: 113px;
+    top: 88px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.1472px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.title {
+    position: absolute;
+    width: 462px;
+    height: 49px;
+    left: 120px;
+    top: 239px;
+
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000; 
+
+}
+
+.subtitle {
+    position: absolute;
+    width: 471px;
+    height: 78px;
+    left: 120px;
+    top: 328px;
+
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+
+    color: #565656;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 215px;
+    height: 65px;
+    left: 121px;
+    top: 439px;
+    
+    background: #2639ED;
+    border-radius: 60px;
+
+    color: #ffffff;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#circle {
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 623px;
+    top: 116px;
+    border-radius: 64.5px;
+
+    background: #DAE9FF;
+} 
+
+.img1 {
+    position: absolute;
+    width: 680px;
+    height: 512px;
+    left: 606px;
+    top: 116px;
+
+    border-radius: 0px 0px 0px 200px;
+}
+
+.title2 {
+    position: absolute;
+    width: 189px;
+    height: 49px;
+    /* left: 120px; */
+    top: 764px;
+
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+
+
+}
+
+.subtitle2 {
+    
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    /* left: 120px; */
+    top: 830px;
+
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+
+    color: #757575;
+
+
+}
+
+.clientes {
+    display:flex;
+    /* justify-content: space-between; */
+    width:100vw;
+    position: relative;
+
+
+}
+
+.logos {
+    position: absolute;
+    width: 50%;
+    /* right: 0; */
+    top: 820px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formato {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 260px;
+    top: 1243px;
+    
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(-180deg);
+    
+}
+
+.title3{
+    position: absolute;
+    width: 358px;
+    height: 98px;
+    left: 121px;
+    top: 1293px;
+    
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #000000;
+    
+}
+
+.subtitle3 {
+    position: absolute;
+    width: 396px;
+    height: 52px;
+    left: 120px;
+    top: 1470px;
+    
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    
+    color: #565656;
+}
+
+.formato2{
+    position: absolute;
+    width: 850px;
+    height: 619px;
+    left: 500px;
+    top: 1122px;
+
+    background: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
+}
+
+.forma {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 607px;
+    top: 1061px;
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.quadrado1 {
+    position: absolute;
+    width: 121px;
+    height: 121px;
+    align-items: center;
+
+    background: #F1F7FF;
+    border-radius: 20px;
+}
+
+.imagem-quadrado1 {
+    position: absolute;
+    left: 46.88%;
+    right: 46.88%;
+    top: 49.12%;
+    bottom: 6.83%;
+
+}
+
+.title4{
+
+}
+
+.forma2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 607px;
+    top: 1470px;
+    
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+#quadrado2 {
+}
+
+.imagem-quadrado2 {
+}
+
+.forma3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 949px;
+    top: 982px;
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+
+}
+
+.#quadrado3 {
+
+}
+
+.imagem-quadrado3 {
+}
+
+.forma4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 949px;
+    top: 1391px;
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+
+}
+/* Criar responsividade */
