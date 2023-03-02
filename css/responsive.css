@@ -708,9 +708,6 @@
     justify-content: left;
   }
 
-  .dev {}
-
-
   .digital {
     flex-wrap: wrap;
     flex-direction: column;
@@ -735,12 +732,12 @@
   }
 
   .logo-imagem {
-    width: 60px;
+    width: 100px;
     padding-top: 35px;
   }
 
   .logo-imagem2 {
-    width: 50px;
+    width: 80px;
     padding-top: 40px;
   }
 
@@ -803,6 +800,61 @@
   }
 }
 
-/* @media screen and
-    (min-width: 1241px) and (max-width: 1439px) {} 
-    */
+@media screen and (min-width: 1241px) and (max-width: 1439px) {
+  
+  .clientes {
+    padding:90px;
+
+    width: 100%;
+  }
+  
+  .ajuda {
+        /* gap:50px; */
+        padding:0;
+        margin-left: 85px;
+        
+        width: 100%;
+        justify-content: space-around;
+      }
+
+    .ajuda__texto {
+      
+
+    }
+
+    .formato {
+    margin-right: 40px;
+    
+    }
+
+    .forma {
+  
+    }
+
+    .video {
+
+      width: 100%;
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+
+  padding:80px;
+  margin-bottom: 295px;
+  /* margin: 30px; */
+}
+  .video__title {
+    padding:15px;
+  }
+
+    .circle__semi2 {
+      right: 450px;
+      
+    }
+
+    .subscribe {
+    top: 80px;
+    }
+
+}
