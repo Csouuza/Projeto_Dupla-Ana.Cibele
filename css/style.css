@@ -126,6 +126,16 @@ main {
 }
 
 .bolinhas {
+  background: url(../imagens/dots.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 404px;
+  height: 154px;
+
+  /* background-color: #2639ED; */
+
   position: absolute;
   left: 68px;
   top: 230px;
@@ -173,7 +183,7 @@ main {
 
 .clientes {
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 
   width: 100%;
   padding: 0 120px;
@@ -199,12 +209,18 @@ main {
   color: #757575;
 }
 
-.logo-imagem {
-  padding-top: 35px;
+.logos {
+  height: 176px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .logo-imagem2 {
-  padding-top: 55px;
+  padding-top: 25px;
 }
 
 .ajuda {
@@ -275,7 +291,14 @@ main {
   z-index: -2;
 }
 
-.dots2 {
+.bolinhas2 {
+  background-image: url(../imagens/dots2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 404px;
+  height: 154px;
+
   position: absolute;
   left: 125px;
   bottom: 70px;
@@ -558,10 +581,15 @@ main {
   z-index: -3;
 }
 
-.background-azul-mini {
+.bolinhas3 {
+  background-image: url(../imagens/dots2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 202px;
+  height: 154px;
+
   position: absolute;
-  width: 178px;
-  height: 178px;
   top: -65px;
   right: -37px;
 
@@ -607,6 +635,7 @@ main {
 }
 
 .email {
+  height: 100%;
   border: none;
   outline: none;
 }

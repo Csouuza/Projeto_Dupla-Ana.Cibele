@@ -4,6 +4,23 @@
     media screen <1240px
     media screen <1439px */
 
+@media screen and (max-width: 465px) {
+
+  .subscribe {
+    padding: 20px 20px 40px 20px !important;
+  }
+
+  .form__subscribe {
+    flex-wrap: wrap;
+    gap: 16px;
+
+    padding: 0 10px 0 10px;
+  }
+
+  .botao-contact {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 600px) {
   body {
@@ -56,8 +73,12 @@
     margin: 0 auto;
   }
 
+  .bolinhas {
+    width: 202px;
+  }
+
   .digital__imagens {
-    width: 100%;
+    margin: 0 auto;
   }
 
   .img1 {
@@ -91,6 +112,13 @@
     width: 100%;
   }
 
+  .logos {
+    flex-direction: column;
+
+    height: fit-content;
+
+  }
+
   .logo-imagem {
     padding: 0;
     margin: 0 auto;
@@ -120,7 +148,7 @@
 
   .subtitle3 {
     width: 100%;
-    max-width: 396px;
+    /* max-width: 396px; */
   }
 
   .formato2 {
@@ -130,9 +158,14 @@
     border-radius: 200px 0px 200px 0px;
   }
 
-  .dots2 {
-    left: 0px;
-    top: 70px;
+  .bolinhas2 {
+    width: 60%;
+    max-width: 404px;
+
+    left: unset;
+    top: 200px;
+    right: 0;
+    bottom: unset;
   }
 
   .circle-pink {
@@ -257,7 +290,8 @@
 
   .circle2 {
     /* left: 80%; */
-    left: 80%;
+    left: unset;
+    right: 0;
     bottom: 20%;
   }
 
@@ -307,14 +341,22 @@
     visibility: hidden;
   }
 
+  .bolinhas3 {
+    width: 200px;
+
+    top: -65px;
+    right: 0;
+
+  }
+
   .botao-subscribe {
     width: 100%;
     max-width: 479px;
   }
 
   .email {
-    width: 50%;
-    min-width: 200px;
+    margin: auto;
+    width: calc(100% - 56px);
   }
 
   .rodape__borda {
@@ -332,9 +374,12 @@
 
   .rodape__nav {
     width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
 
     flex-wrap: wrap;
     justify-content: space-evenly;
+    grid-row-gap: 40px;
 
   }
 
@@ -369,10 +414,6 @@
     margin-bottom: 24px;
     position: unset;
     left: 0;
-    /* top: -28px; */
-
-    /* font-size: 27px;
-    line-height: 33px; */
   }
 
   .digital {
@@ -386,7 +427,7 @@
 
   .digital__texto {
     width: 100%;
-    padding-left: 0px;
+    padding-left: 24px;
   }
 
   /* .title__digital {
@@ -427,6 +468,8 @@
 
   .clientes__texto {
     margin: 0 0 24px 0;
+    padding-left: 24px;
+
   }
 
   .cliente__title {
@@ -434,17 +477,39 @@
   }
 
   .cliente__subtitle {
-    width: 50%;
+    width: 100%
+  }
+
+  .logos {
+    height: 152px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    /* align-content: center;*/
+
   }
 
   .logo-imagem {
     padding: 0;
-    margin: 0 auto;
+    width: 140px;
+    /* margin: 0 auto; */
+
   }
 
   .logo-imagem2 {
-    margin: 0 auto;
-    padding-top: 20px;
+
+    padding-top: 0px;
+    width: 140px;
+
+    /* margin: 0 auto; */
+
+  }
+
+  .logos img:nth-child(3) {
+    padding-top: 15px;
   }
 
   .ajuda {
@@ -456,6 +521,8 @@
 
   .ajuda__texto {
     width: 100%;
+    margin-bottom: 40px;
+    padding-left: 24px;
   }
 
   .title3 {
@@ -466,19 +533,24 @@
 
   .subtitle3 {
     width: 100%;
-    max-width: 396px;
+    /* max-width: 396px; */
   }
 
   .formato2 {
     top: 450px;
     width: 100%;
-    height: 1240px;
+    height: 453px;
     border-radius: 200px 0px 200px 0px;
   }
 
-  .dots2 {
-    left: 0px;
-    top: 70px;
+  .bolinhas2 {
+    width: 60%;
+    max-width: 404px;
+
+    left: unset;
+    top: 200px;
+    right: 0;
+    bottom: unset;
   }
 
   .circle-pink {
@@ -487,8 +559,11 @@
   }
 
   .ajuda__banner {
+    height: 900px;
+    ;
+
     align-content: center;
-    gap: 32px 0;
+    gap: 32px;
   }
 
   .forma {
@@ -589,6 +664,10 @@
     height: fit-content;
   }
 
+  .video__texto {
+    padding-left: 24px;
+  }
+
   .video__title {
     font-size: 30px;
 
@@ -613,7 +692,6 @@
   }
 
   .subscribe {
-    /* display:; */
 
     height: 450px;
     width: 100%;
@@ -622,6 +700,7 @@
 
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
     align-content: space-evenly;
   }
 
@@ -664,7 +743,8 @@
   }
 
   .rodape__borda {
-    margin: 0;
+    margin: 0 56px 17px 61px;
+    padding: 24px 0px 24px 0;
   }
 
   .rodape__container {
@@ -680,7 +760,7 @@
     width: 100%;
 
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 
   }
 
@@ -701,19 +781,16 @@
 
 
 
-
 @media screen and (min-width: 841px) and (max-width: 1240px) {
 
-  .menu {
-    justify-content: left;
-  }
+  /* .menu {
+    justify-content: flex-end;
+  } */
 
   .digital {
     flex-wrap: wrap;
     flex-direction: column;
     padding-bottom: 96px;
-    margin-bottom: 40px;
-    padding: 30px;
     gap: 56px;
     margin: 0 auto;
   }
@@ -729,25 +806,31 @@
   .clientes {
     width: 100%;
     flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .logos {
+    /* height: 176px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* gap: 16px 0; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-grow: 1;
   }
 
   .logo-imagem {
     width: 100px;
-    padding-top: 35px;
+    /* padding-top: 35px; */
   }
 
   .logo-imagem2 {
     width: 80px;
-    padding-top: 40px;
+    padding-top: 10px;
   }
 
   .ajuda {
     flex-wrap: wrap;
-  }
-
-  .ajuda__banner {
-    flex-wrap: wrap;
-    align-content: center;
   }
 
   .forma {
@@ -757,8 +840,7 @@
   .video {
     flex-wrap: wrap;
     padding-top: 70px;
-    justify-content: space-between;
-    align-items: center;
+    height: fit-content;
   }
 
   .video__title {
@@ -801,60 +883,49 @@
 }
 
 @media screen and (min-width: 1241px) and (max-width: 1439px) {
-  
+
+  /* .menu {
+    justify-content: flex-end;
+  } */
+
   .clientes {
-    padding:90px;
+    padding: 0 90px;
+    width: 100%;
+    margin-bottom: 56px;
+  }
+
+  .ajuda {
+    /* gap:50px; */
+    padding: 0;
+    margin-left: 85px;
 
     width: 100%;
+    justify-content: space-around;
   }
-  
-  .ajuda {
-        /* gap:50px; */
-        padding:0;
-        margin-left: 85px;
-        
-        width: 100%;
-        justify-content: space-around;
-      }
 
-    .ajuda__texto {
-      
 
-    }
-
-    .formato {
+  .formato {
     margin-right: 40px;
-    
-    }
 
-    .forma {
-  
-    }
-
-    .video {
-
-      width: 100%;
-      display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  position: relative;
-
-  padding:80px;
-  margin-bottom: 295px;
-  /* margin: 30px; */
-}
-  .video__title {
-    padding:15px;
   }
 
-    .circle__semi2 {
-      right: 450px;
-      
-    }
+  .video {
 
-    .subscribe {
+    padding: 80px;
+    margin-bottom: 104px;
+  }
+
+  .video__title {
+    padding: 15px;
+  }
+
+  .circle__semi2 {
+    right: 450px;
+
+  }
+
+  .subscribe {
     top: 80px;
-    }
+  }
 
 }
