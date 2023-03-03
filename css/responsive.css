@@ -23,23 +23,121 @@
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    padding: 0 24px;
-    overflow-x: hidden;
-  }
+
+  /* .cabecalho {
+    padding: 49px 0 56px 0;
+  } */
 
   .cabecalho {
-    padding: 49px 0 56px 0;
+    width: 100%;
+    height: 116px;
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    /* position: fixed;
+    top: 0; */
+
+    background-color: #FEFEFE;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .dev1 {
+    display: unset;
+    white-space: nowrap;
+
+    font-family: 'Inter';
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  .botao__menu {
+    display: unset;
+  }
+
+  .botao__menu {
+    cursor: pointer;
+
+    padding: 10px;
+
+    height: fit-content;
+
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .botao__menu:active {
+    transform: scale(0.9);
+    box-shadow: inset 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .hamburguer {
+    display: none;
+    width: 90%;
+    max-width: 400px;
+
+    background-color: #FEFEFE;
+    border-radius: 40px 0 40px 40px;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 131px;
+    right: 20px;
+    /* transform: translateX(-50%); */
+    z-index: 2;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: flex-end; */
+  }
+
+  .menu a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    color: #000000;
+  }
+
+  .menu a:active {
+    color: #000000;
+    transform: scale(0.9);
+  }
+
+  .menu li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    white-space: nowrap;
+  }
+
+  .menu li:nth-child(2n+3) {
+    border-top: 1px solid #d6e9ff;
+  }
+
+  .menu li:nth-child(2n) {
+    border-top: 1px solid #ffecbb;
+  }
+
+  .conteudo {
+    padding: 0 24px;
+    margin-top: 56px;
   }
 
   .dev {
-    margin-bottom: 24px;
-    position: unset;
-    left: 0;
-    /* top: -28px; */
-
-    /* font-size: 27px;
-    line-height: 33px; */
+    display: none;
   }
 
   .digital {
@@ -402,18 +500,116 @@
   /* NAO TERMINADO */
 
 
-  body {
-    padding: 0 24px;
+  .cabecalho {
+    width: 100%;
+    height: 116px;
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    /* position: fixed;
+    top: 0; */
+
+    background-color: #FEFEFE;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .cabecalho {
-    padding: 49px 0 56px 0;
+  .dev1 {
+    display: unset;
+    white-space: nowrap;
+
+    font-family: 'Inter';
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  .botao__menu {
+    display: unset;
+  }
+
+  .botao__menu {
+    cursor: pointer;
+
+    padding: 10px;
+
+    height: fit-content;
+
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .botao__menu:active {
+    transform: scale(0.9);
+    box-shadow: inset 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .hamburguer {
+    display: none;
+    width: 90%;
+    max-width: 400px;
+
+    background-color: #FEFEFE;
+    border-radius: 40px 0 40px 40px;
+    box-shadow: 0px 10px 15px 4px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 131px;
+    right: 20px;
+    /* transform: translateX(-50%); */
+    z-index: 2;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: flex-end; */
+  }
+
+  .menu a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    color: #000000;
+  }
+
+  .menu a:active {
+    color: #000000;
+    transform: scale(0.9);
+  }
+
+  .menu li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    white-space: nowrap;
+  }
+
+  .menu li:nth-child(2n+3) {
+    border-top: 1px solid #d6e9ff;
+  }
+
+  .menu li:nth-child(2n) {
+    border-top: 1px solid #ffecbb;
+  }
+
+  .conteudo {
+    padding: 0 24px;
+    margin-top: 56px;
   }
 
   .dev {
-    margin-bottom: 24px;
-    position: unset;
-    left: 0;
+    display: none;
   }
 
   .digital {
@@ -787,6 +983,18 @@
     justify-content: flex-end;
   } */
 
+  .dev1 {
+    display: none;
+  }
+
+  .botao__menu {
+    display: none;
+  }
+
+  .hamburguer {
+    display: block !important;
+  }
+
   .digital {
     flex-wrap: wrap;
     flex-direction: column;
@@ -887,6 +1095,17 @@
   /* .menu {
     justify-content: flex-end;
   } */
+  .dev1 {
+    display: none;
+  }
+
+  .botao__menu {
+    display: none;
+  }
+
+  .hamburguer {
+    display: block !important;
+  }
 
   .clientes {
     padding: 0 90px;
@@ -928,4 +1147,10 @@
     top: 80px;
   }
 
+}
+
+@media screen and (min-width:1440px) {
+  .hamburguer {
+    display: block !important;
+  }
 }

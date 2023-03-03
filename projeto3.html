@@ -14,26 +14,62 @@
 <body>
   <header class="cabecalho">
 
-    <ul class="menu">
-      <a href="#">
-        <li>Home</li>
-      </a>
-      <a href="#">
-        <li>What We Do</li>
-      </a>
-      <a href="#">
-        <li>Service</li>
-      </a>
-      <a href="#">
-        <li>Project</li>
-      </a>
-      <a href="#">
-        <li>Blog</li>
-      </a>
-      <a href="#">
-        <li>Contact</li>
-      </a>
-    </ul>
+    <section class="dev1">
+      <h1>Dev+ Studio</h1>
+    </section>
+
+    <button class="botao__menu" type="button" onClick="clickMenu()">
+      <span class="icon__hamburguer">
+        <img src="/svg/menu.svg" alt="icone de menu hamburguer">
+      </span>
+    </button>
+
+    <div id="hamburguer" class="hamburguer">
+      <ul class="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">What We Do</a>
+        </li>
+        <li>
+          <a href="#">Service</a>
+        </li>
+        <li>
+          <a href="#">Project</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- <div id="menu__desktop">
+      <ul class="menu__desktop">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">What We Do</a>
+        </li>
+        <li>
+          <a href="#">Service</a>
+        </li>
+        <li>
+          <a href="#">Project</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div> -->
 
   </header>
 
@@ -273,5 +309,19 @@
   </footer>
 
 </body>
+
+<script>
+
+  function clickMenu() {
+
+    if (hamburguer.style.display == 'block') {
+      hamburguer.style.display = 'none'
+    } else {
+      hamburguer.style.display = 'block'
+    }
+  }
+
+</script>
+
 
 </html>

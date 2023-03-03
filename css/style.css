@@ -70,6 +70,14 @@ main {
   line-height: 33px;
 }
 
+.dev1 {
+  display: none;
+}
+
+.botao__menu {
+  display: none;
+}
+
 .digital {
   display: flex;
   align-items: center;
