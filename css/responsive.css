@@ -192,7 +192,7 @@
 
   .clientes {
     flex-direction: column;
-    gap: 24px;
+    gap: 0px;
     padding: 0;
     /* padding: 0 120px; */
     margin-bottom: 104px;
@@ -214,17 +214,16 @@
     flex-direction: column;
 
     height: fit-content;
-
   }
 
   .logo-imagem {
-    padding: 0;
+    /* padding: 0; */
     margin: 0 auto;
   }
 
   .logo-imagem2 {
     margin: 0 auto;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 
   .ajuda {
@@ -409,6 +408,7 @@
     flex-wrap: wrap;
     text-align: center;
     align-content: space-evenly;
+    justify-content: center;
   }
 
   .title-subscribe {
@@ -459,6 +459,7 @@
 
   .rodape__borda {
     margin: 0;
+    padding: 0px 24px;
   }
 
   .rodape__container {
@@ -677,7 +678,7 @@
   }
 
   .logos {
-    height: 152px;
+    height: 121px;
 
     display: flex;
     flex-direction: column;
@@ -1028,13 +1029,13 @@
   }
 
   .logo-imagem {
-    width: 100px;
+    width: 120px;
     /* padding-top: 35px; */
   }
 
   .logo-imagem2 {
-    width: 80px;
-    padding-top: 10px;
+    width: 100px;
+    padding-top: 45px;
   }
 
   .ajuda {
